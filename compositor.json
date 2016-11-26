@@ -1,0 +1,83 @@
+{
+  "name": "virtualdataset/virtualdataset.github.io",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.21"
+  },
+  "title": "Virtual Data Set",
+  "branch": "",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/virtualdataset/virtualdataset.github.io",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "virtualdataset.github.io",
+      "subhead": "Organizational gh pages repo",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "virtualdataset.github.io: Organizational gh pages repo",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "virtualdataset",
+          "repo": "virtualdataset.github.io"
+        }
+      ]
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/virtualdataset/virtualdataset.github.io",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/virtualdataset",
+          "text": "virtualdataset"
+        }
+      ]
+    }
+  ]
+}
