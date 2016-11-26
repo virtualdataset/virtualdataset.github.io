@@ -44,15 +44,15 @@
       "component": "nav",
       "links": [
         {
-          "href": "https://github.com/virtualdataset/virtualdataset.github.io",
-          "text": "GitHub"
+          "href": "http://docs.virtdata.io/",
+          "text": "docs.virtdata.io"
         }
       ]
     },
     {
       "component": "header",
-      "heading": "virtualdataset.github.io",
-      "subhead": "Organizational gh pages repo",
+      "heading": "VirtData.io",
+      "subhead": "A Procedural Data Generation Toolkit",
       "children": [
         {
           "component": "ui/TweetButton",
@@ -64,15 +64,19 @@
           "user": "virtualdataset",
           "repo": "virtualdataset.github.io"
         }
-      ]
+      ],
+      "text": "Project Directory",
+      "links": [
+        {
+          "href": "https://github.com/virtualdataset/metagen-java/",
+          "text": "metagen-java"
+        }
+      ],
+      "image": "https://avatars1.githubusercontent.com/u/20408394"
     },
     {
       "component": "footer",
       "links": [
-        {
-          "href": "https://github.com/virtualdataset/virtualdataset.github.io",
-          "text": "GitHub"
-        },
         {
           "href": "https://github.com/virtualdataset",
           "text": "virtualdataset"
