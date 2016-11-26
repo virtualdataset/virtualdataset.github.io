@@ -45,7 +45,7 @@
       "links": [
         {
           "href": "http://docs.virtdata.io/",
-          "text": "docs.virtdata.io"
+          "text": "[docs]"
         }
       ]
     },
@@ -69,17 +69,18 @@
       "links": [
         {
           "href": "https://github.com/virtualdataset/metagen-java/",
-          "text": "metagen-java"
+          "text": "[metagen-java]"
         }
       ],
-      "image": "https://avatars1.githubusercontent.com/u/20408394"
+      "image": "https://avatars1.githubusercontent.com/u/20408394",
+      "slug": "virtdata"
     },
     {
       "component": "footer",
       "links": [
         {
           "href": "https://github.com/virtualdataset",
-          "text": "virtualdataset"
+          "text": "[github projects repo]"
         }
       ]
     }
